@@ -12,3 +12,9 @@ let num =  17
 
 var strGreeting = "str \(num)"
 
+
+var condition = true
+
+func myFunc(greeting: String){
+    
+}
