@@ -10,7 +10,6 @@ var strGreeting = "str \(num)"
 let langs = ["Python", "Java", "C++", "C#"]
 let count = langs.count
 var condition = true
-var empty : Int
 //----------------Variables------------------
 
 //-----------------Loops---------------------
@@ -27,12 +26,19 @@ for i in 0..<count {
 }
 //-----------------Loops---------------------
 
-//---------Constructor-----------
-//init(empty: Int, sideLength: Double) {
-//    self.empty = empty
-//}
-//---------Constructor-----------
 
+//-----------------Classes------------------
+class TestingConstructo{
+
+    var empty : Int
+//---------------Constructor------------------
+init (empty: Int) {
+    self.empty = 52
+    }
+//---------------Constructor------------------
+}
+    
+    
 //---------------Functions-------------------
 public func myFunc(randomNum: Int, empty: Int) -> Int {
     randomNums = randomNums + empty
