@@ -75,3 +75,12 @@ public func myFunc(randomNum: Int, empty: Int) -> Int {
     return randomNum
 }
 //----------------Function-------------------
+
+
+//------------------UnWrap--------------------
+public func unwraping(){
+    guard let iceCream = TypesOfIceCreams.text else{
+        print("No IceCream")
+    }
+}
+//-----------------UnWrap---------------------
